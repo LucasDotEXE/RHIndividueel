@@ -25,7 +25,7 @@ namespace RHAstrantApplication
             //progbar.IsIndeterminate = false;
             //progbar.Orientation = Orientation.Horizontal;
 
-            //progbar.
+            //   progbar.
         }
 
         private void Label1_Click(object sender, EventArgs e)

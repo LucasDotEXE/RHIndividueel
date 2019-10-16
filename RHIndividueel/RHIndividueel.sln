@@ -7,10 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RHAstrantApplication", "RHA
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		ClientServer|Any CPU = ClientServer|Any CPU
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0B52A42-7EC4-456F-865D-922BB63DBDFD}.ClientServer|Any CPU.ActiveCfg = Release|Any CPU
+		{D0B52A42-7EC4-456F-865D-922BB63DBDFD}.ClientServer|Any CPU.Build.0 = Release|Any CPU
 		{D0B52A42-7EC4-456F-865D-922BB63DBDFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D0B52A42-7EC4-456F-865D-922BB63DBDFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0B52A42-7EC4-456F-865D-922BB63DBDFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
