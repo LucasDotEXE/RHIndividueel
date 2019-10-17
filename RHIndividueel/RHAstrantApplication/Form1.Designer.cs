@@ -37,7 +37,7 @@
             this.Naam = new System.Windows.Forms.TextBox();
             this.Gewicht = new System.Windows.Forms.TextBox();
             this.MainPannel = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
+            this.resistanceLabel = new System.Windows.Forms.Label();
             this.HeartRate = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -125,14 +125,13 @@
             // MainPannel
             // 
             this.MainPannel.BackColor = System.Drawing.Color.White;
-            this.MainPannel.Controls.Add(this.label1);
+            this.MainPannel.Controls.Add(this.resistanceLabel);
             this.MainPannel.Controls.Add(this.HeartRate);
             this.MainPannel.Controls.Add(this.pictureBox2);
             this.MainPannel.Controls.Add(this.pictureBox1);
             this.MainPannel.Controls.Add(this.MinuteLabel);
             this.MainPannel.Controls.Add(this.SessionStateLabel);
             this.MainPannel.Controls.Add(this.SessieStatusBarr);
- 
             this.MainPannel.Location = new System.Drawing.Point(13, 13);
             this.MainPannel.Name = "MainPannel";
             this.MainPannel.Size = new System.Drawing.Size(775, 440);
@@ -140,14 +139,14 @@
             this.MainPannel.Visible = false;
             this.MainPannel.Paint += new System.Windows.Forms.PaintEventHandler(this.Panel1_Paint);
             // 
-            // label1
+            // resistanceLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(710, 166);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(36, 17);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "60%";
+            this.resistanceLabel.AutoSize = true;
+            this.resistanceLabel.Location = new System.Drawing.Point(710, 166);
+            this.resistanceLabel.Name = "resistanceLabel";
+            this.resistanceLabel.Size = new System.Drawing.Size(36, 17);
+            this.resistanceLabel.TabIndex = 6;
+            this.resistanceLabel.Text = "60%";
             // 
             // HeartRate
             // 
@@ -157,6 +156,7 @@
             this.HeartRate.Size = new System.Drawing.Size(24, 17);
             this.HeartRate.TabIndex = 5;
             this.HeartRate.Text = "90";
+            this.HeartRate.Click += new System.EventHandler(this.HeartRate_Click);
             // 
             // pictureBox2
             // 
@@ -247,7 +247,7 @@
         private System.Windows.Forms.Label MinuteLabel;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label resistanceLabel;
         private System.Windows.Forms.Label HeartRate;
         
     }

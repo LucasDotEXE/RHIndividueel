@@ -37,6 +37,8 @@ namespace RHAstrantApplication
         {
             if (LoginIsCorrect())
             {
+                test();
+
                 this.loginPanel.Visible = false;
                 this.MainPannel.Visible = true;
 
@@ -46,10 +48,18 @@ namespace RHAstrantApplication
                 aTimer.Elapsed += OnTimedEvent;
                 aTimer.AutoReset = true;
                 aTimer.Enabled = true;
+
+                //start client program etc
+
             }
         }
 
-        
+        private void test()
+        {
+            setHeartrate(100);
+            setResistance(0.50);
+        }
+
         private void OnTimedEvent(object sender, ElapsedEventArgs e)
         {
             this.BeginInvoke(new Action(delegate() {
@@ -100,20 +110,23 @@ namespace RHAstrantApplication
 
         }
 
-
-    }
-    public class VerticalProgressBar : ProgressBar
-    {
-        protected override CreateParams CreateParams
+        private void HeartRate_Click(object sender, EventArgs e)
         {
-            get
-            {
-                CreateParams cp = base.CreateParams;
-                cp.Style |= 0x04;
-                return cp;
-            }
+
+        }
+
+        public void setResistance(double resistance)
+        {
+            this.resistanceLabel.Text = $"{resistance*100}%";
+        }
+
+        public void setHeartrate(int bpm)
+        {
+            this.HeartRate.Text = $"{bpm}";
+            Console.WriteLine("hyo");
         }
     }
+   
 
     
 }
