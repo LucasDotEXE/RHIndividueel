@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RHAstrantApplication", "RHAstrantApplication\RHAstrantApplication.csproj", "{D0B52A42-7EC4-456F-865D-922BB63DBDFD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "..\..\RemoteHealthcare\Client\Client.csproj", "{690A2B5C-955A-4A23-B163-29B41918B75F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ergometer", "..\..\RemoteHealthcare\Remote_Healthcare_App_B2\Ergometer.csproj", "{FE90096F-274D-43E9-AE78-57665C500FB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "..\..\RemoteHealthcare\Server\Server.csproj", "{C291ECCB-D913-43BD-B2DF-3089F064957A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		ClientServer|Any CPU = ClientServer|Any CPU
@@ -18,6 +24,24 @@ Global
 		{D0B52A42-7EC4-456F-865D-922BB63DBDFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0B52A42-7EC4-456F-865D-922BB63DBDFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0B52A42-7EC4-456F-865D-922BB63DBDFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{690A2B5C-955A-4A23-B163-29B41918B75F}.ClientServer|Any CPU.ActiveCfg = ClientServer|Any CPU
+		{690A2B5C-955A-4A23-B163-29B41918B75F}.ClientServer|Any CPU.Build.0 = ClientServer|Any CPU
+		{690A2B5C-955A-4A23-B163-29B41918B75F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{690A2B5C-955A-4A23-B163-29B41918B75F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{690A2B5C-955A-4A23-B163-29B41918B75F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{690A2B5C-955A-4A23-B163-29B41918B75F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE90096F-274D-43E9-AE78-57665C500FB2}.ClientServer|Any CPU.ActiveCfg = ClientServer|Any CPU
+		{FE90096F-274D-43E9-AE78-57665C500FB2}.ClientServer|Any CPU.Build.0 = ClientServer|Any CPU
+		{FE90096F-274D-43E9-AE78-57665C500FB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE90096F-274D-43E9-AE78-57665C500FB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE90096F-274D-43E9-AE78-57665C500FB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE90096F-274D-43E9-AE78-57665C500FB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C291ECCB-D913-43BD-B2DF-3089F064957A}.ClientServer|Any CPU.ActiveCfg = ClientServer|Any CPU
+		{C291ECCB-D913-43BD-B2DF-3089F064957A}.ClientServer|Any CPU.Build.0 = ClientServer|Any CPU
+		{C291ECCB-D913-43BD-B2DF-3089F064957A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C291ECCB-D913-43BD-B2DF-3089F064957A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C291ECCB-D913-43BD-B2DF-3089F064957A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C291ECCB-D913-43BD-B2DF-3089F064957A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
